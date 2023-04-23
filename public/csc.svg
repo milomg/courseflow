@@ -1,0 +1,667 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1196" height="707.919189453125" viewBox="0 0 1195.999948434501 707.9192123560712">
+  <style>
+    .course {
+      font-size: 16px;
+      font-family: sans-serif;
+    }
+    .required {
+      font-size:10px;
+      font-family:sans-serif;
+      fill:#fff;
+      stroke:#fff;
+    }
+  </style>
+  <defs>
+     <marker id="arrowHead" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="7" markerHeight="7" orient="auto">
+      <polyline points="0,1 10,5 0,9" fill="black"></polyline>
+    </marker>
+  </defs>
+  <g>
+    <path d="M -1.0767019,283.2168 V 3.597573 L 430.2633,3.5976528 430.26348,283.2168 Z" style="fill:#6276b9;fill-opacity:.14902;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 337.1143,711.5168 V 283.2168 H 225.7033 V 483.4768 H 115.3033 V 711.5168 Z" style="fill:#0a7442;fill-opacity:.14902;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 430.26295,134.9768 H 660.8233 V 412.99978 L 660.5543,490.4039 644.58952,490.5758 644.482,555.2188 H 514.2633 V 413.32919 L 430.2633,413.52648 C 429.54019,276.88463 430.26295,271.61996 430.26295,134.9768 Z" style="fill:#5ac0ca;fill-opacity:.148148;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M -1.0767019,711.5168 V 283.2168 H 225.7033 V 483.4768 H 115.3033 V 711.5168 Z" style="fill:#71e471;fill-opacity:.14902;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 337.1143,711.5168 H 514.2633 V 413.32919 L 430.2633,413.52648 430.26348,283.2168 H 337.1143 Z" style="fill:#c2f013;fill-opacity:.148148;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 890.59621,422.4168 V 711.5168 H 514.2633 V 555.2188 H 644.482 L 644.58952,490.5758 H 770.4891 V 422.4168 Z" style="fill:#5b57cf;fill-opacity:.14902;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 660.8233,134.9768 V 490.5758 H 770.4891 L 770.67984,422.4168 H 890.59621 V 134.9768 Z" style="fill:#dc0c33;fill-opacity:.148148;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 890.59621,134.97698 1194.9233,134.97663 V 711.5168 H 890.59621 Z" style="fill:#d366cb;fill-opacity:.14902;" transform="translate(-3.9232981,-9.3118992)"/>
+    <path d="M 430.2633,3.5976129 H 1194.9233 V 134.9768 L 430.2633,134.97664 Z" style="fill:#c2f0b3;fill-opacity:.148148;" transform="translate(-3.9232981,-9.3118992)"/>
+  </g>
+  <g  transform="translate(5,5.7142857) translate(17,317)">
+    <g style="font-size:12px;fill:#000;stroke:#000">
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="30" x="539.6839" y="193.47321" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="541.94562" y="214.75841" style="stroke:none">CSC438</text>
+        <rect width="65" height="30" x="539.6839" y="193.47321" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="30" x="539.6839" y="149.092" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="541.94562" y="170.3772" style="stroke:none">CSC463</text>
+        <rect width="65" height="30" x="539.6839" y="149.092" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="30" x="539.6839" y="24.688101" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="541.94562" y="45.973301" style="stroke:none">CSC448</text>
+        <rect width="65" height="30" x="539.6839" y="24.688101" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="32" x="506.07571" y="-291.03879" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="508.3374" y="-268.7536" style="stroke:none">CSC165</text>
+        <rect width="65" height="32" x="506.07571" y="-291.03879" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="32" x="461.89099" y="-148.4075" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="464.15271" y="-126.1224" style="stroke:none">CSC236</text>
+        <rect width="65" height="32" x="461.89099" y="-148.4075" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="100.185" height="32" x="444.29849" y="-59.778" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="448.5824" y="-37.492901" style="stroke:none">CSC263/265</text>
+        <rect width="100.185" height="32" x="444.29849" y="-59.778" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="30" x="460.8569" y="24.688101" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="463.11859" y="45.973301" style="stroke:none">CSC373</text>
+        <rect width="65" height="30" x="460.8569" y="24.688101" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="734.77838" y="-316.79849" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="737.04022" y="-295.5134" style="stroke:none">CSC108</text>
+        <rect width="65" height="30" x="734.77838" y="-316.79849" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="734.77838" y="-264.65131" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="737.04022" y="-243.3661" style="stroke:none">CSC148</text>
+        <rect width="65" height="30" x="734.77838" y="-264.65131" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="717.0658" y="-147.4075" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="719.32751" y="-126.1224" style="stroke:none">CSC207</text>
+        <rect width="65" height="30" x="717.0658" y="-147.4075" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="885.68091" y="-58.778" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="887.94263" y="-37.492901" style="stroke:none">CSC209</text>
+        <rect width="65" height="30" x="885.68091" y="-58.778" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="997.80322" y="-147.4075" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="1000.0649" y="-126.1224" style="stroke:none">CSC258</text>
+        <rect width="65" height="30" x="997.80322" y="-147.4075" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="945.30322" y="121.2683" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="947.56488" y="142.55341" style="stroke:none">CSC369</text>
+        <rect width="65" height="30" x="945.30322" y="121.2683" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="9.7566004" y="81.104897" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="12.0183" y="102.39" style="stroke:none">CSC318</text>
+        <rect width="65" height="30" x="9.7566004" y="81.104897" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#66a366;stroke:#66a366">
+        <rect width="65" height="30" x="122.4636" y="238.29559" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="124.7253" y="259.58069" style="stroke:none">CSC320</text>
+        <rect width="65" height="30" x="122.4636" y="238.29559" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#66a366;stroke:#66a366">
+        <rect width="65" height="30" x="235.0668" y="165.8633" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="237.32851" y="187.1485" style="stroke:none">CSC317</text>
+        <rect width="65" height="30" x="235.0668" y="165.8633" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="9.7566004" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="12.0183" y="312.8916" style="stroke:none">CSC454</text>
+        <rect width="65" height="30" x="9.7566004" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="9.7566004" y="24.688101" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="12.0183" y="45.973301" style="stroke:none">CSC300</text>
+        <rect width="65" height="30" x="9.7566004" y="24.688101" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="9.7566004" y="234.951" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="12.0183" y="256.23621" style="stroke:none">CSC404</text>
+        <rect width="65" height="30" x="9.7566004" y="234.951" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="9.7566004" y="138.3633" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="12.0183" y="159.6485" style="stroke:none">CSC428</text>
+        <rect width="65" height="30" x="9.7566004" y="138.3633" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b8ff70;stroke:#b8ff70">
+        <rect width="65" height="30" x="376.85849" y="128.2932" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="379.12021" y="149.57829" style="stroke:none">CSC336</text>
+        <rect width="65" height="30" x="376.85849" y="128.2932" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b8ff70;stroke:#b8ff70">
+        <rect width="65" height="30" x="332.93991" y="234.951" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="335.2016" y="256.23621" style="stroke:none">CSC446</text>
+        <rect width="65" height="30" x="332.93991" y="234.951" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b8ff70;stroke:#b8ff70">
+        <rect width="65" height="30" x="420.7771" y="281.43219" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="423.03879" y="302.71741" style="stroke:none">CSC456</text>
+        <rect width="65" height="30" x="420.7771" y="281.43219" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b8ff70;stroke:#b8ff70">
+        <rect width="65" height="30" x="420.7771" y="234.951" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="423.03879" y="256.23621" style="stroke:none">CSC436</text>
+        <rect width="65" height="30" x="420.7771" y="234.951" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="604.6839" y="234.951" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="606.94562" y="256.23621" style="stroke:none">CSC384</text>
+        <rect width="65" height="30" x="604.6839" y="234.951" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="551.5274" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="553.78912" y="312.8916" style="stroke:none">CSC486</text>
+        <rect width="65" height="30" x="551.5274" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="771.00458" y="242.53979" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="773.2663" y="263.82501" style="stroke:none">CSC401</text>
+        <rect width="65" height="30" x="771.00458" y="242.53979" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="809.00458" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="811.2663" y="312.8916" style="stroke:none">CSC485</text>
+        <rect width="65" height="30" x="809.00458" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="714.00458" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="716.2663" y="312.8916" style="stroke:none">CSC413</text>
+        <rect width="65" height="30" x="714.00458" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="717.0658" y="193.47321" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="719.32751" y="214.75841" style="stroke:none">CSC311</text>
+        <rect width="65" height="30" x="717.0658" y="193.47321" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="785.11298" y="-22.5002" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="787.37469" y="-1.215" style="stroke:none">CSC301</text>
+        <rect width="65" height="30" x="785.11298" y="-22.5002" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="785.11298" y="23.032801" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="787.37469" y="44.318001" style="stroke:none">CSC302</text>
+        <rect width="65" height="30" x="785.11298" y="23.032801" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="662.39838" y="81.104897" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="664.66022" y="102.39" style="stroke:none">CSC410</text>
+        <rect width="65" height="30" x="662.39838" y="81.104897" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="662.39838" y="-22.5002" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="664.66022" y="-1.215" style="stroke:none">CSC324</text>
+        <rect width="65" height="30" x="662.39838" y="-22.5002" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="662.39838" y="23.032801" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="664.66022" y="44.318001" style="stroke:none">CSC488</text>
+        <rect width="65" height="30" x="662.39838" y="23.032801" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="1052.7181" y="197.52161" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="1054.98" y="218.80679" style="stroke:none">CSC469</text>
+        <rect width="65" height="30" x="1052.7181" y="197.52161" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="1052.7181" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="1054.98" y="312.8916" style="stroke:none">CSC457</text>
+        <rect width="65" height="30" x="1052.7181" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="1052.7181" y="137.52161" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="1054.98" y="158.80679" style="stroke:none">CSC458</text>
+        <rect width="65" height="30" x="1052.7181" y="137.52161" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="890.16492" y="81.104897" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="892.42657" y="102.39" style="stroke:none">CSC343</text>
+        <rect width="65" height="30" x="890.16492" y="81.104897" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="890.16492" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="892.42657" y="312.8916" style="stroke:none">CSC443</text>
+        <rect width="65" height="30" x="890.16492" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="80.236099" height="24" x="-2.5027001" y="184.29559" style="stroke:none"/>
+      </g>
+      <g font-size="10px" class="required">
+        <text x="-0.7464" y="194.0983" style="stroke:none">CSC301/317/318/</text>
+        <text x="9.8101997" y="206.3493" style="stroke:none">384/417/419</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="80.236099" height="24" x="-2.5027001" y="184.29559" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="52.768799" height="24" x="1109.9255" y="-60.409599" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="1117.411" y="-44.4813" font-size="10px" style="stroke:none">CSC263</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="52.768799" height="24" x="1109.9255" y="-60.409599" style="fill:none"/>
+        <text x="1023.6294" y="-40.635399" font-size="8px" style="font-size:8px;stroke:none">and</text>
+        <ellipse cx="1030.3032" cy="-43.778" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+        <text x="516.03241" y="167.2346" font-size="8px" style="font-size:8px;stroke:none">or</text>
+        <ellipse cx="519.58899" cy="164.092" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="27" height="24" x="700.96082" y="245.53979" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="704.45343" y="261.46799" font-size="10px" style="stroke:none">Alg1</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="27" height="24" x="700.96082" y="245.53979" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="27" height="24" x="809.00458" y="124.2683" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="812.21887" y="140.1965" font-size="10px" style="stroke:none">Sta1</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="27" height="24" x="809.00458" y="124.2683" style="fill:none"/>
+      </g>
+      <g style="fill:#8a67be;stroke:#8a67be">
+        <rect width="173.6458" height="46.165798" x="1.7825" y="-309.81271" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="6.3319998" y="-290.24551" style="stroke:none">MAT(135,136)/137/157</text>
+        <text x="62.8242" y="-270.64389" style="stroke:none">(Calc1)</text>
+        <rect width="173.6458" height="46.165798" x="1.7825" y="-309.81271" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#8a67be;stroke:#8a67be">
+        <rect width="173.646" height="46.165798" x="11.32716" y="-122.9254" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="17.209801" y="-103.3852" style="stroke:none">STA237/247/255/257</text>
+        <text x="55.4715" y="-83.7836" style="stroke:none">(Sta1)</text>
+        <rect width="173.646" height="46.165798" x="11.32716" y="-122.9524" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#80b2ff;stroke:#80b2ff">
+        <rect width="65" height="30" x="635.96082" y="291.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="638.22247" y="312.8916" style="stroke:none">CSC412</text>
+        <rect width="65" height="30" x="635.96082" y="291.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#66a366;stroke:#66a366">
+        <rect width="65" height="30" x="122.4636" y="288.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="124.7253" y="309.09079" style="stroke:none">CSC420</text>
+        <rect width="65" height="30" x="122.4636" y="288.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="861.73907" y="-316.79849" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="864.00079" y="-295.5134" style="stroke:none">CSC104</text>
+        <rect width="65" height="30" x="861.73907" y="-316.79849" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="947.2745" y="-316.79849" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="949.5362" y="-295.5134" style="stroke:none">CSC120</text>
+        <rect width="65" height="30" x="947.2745" y="-316.79849" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#8a67be;stroke:#8a67be">
+        <rect width="142.07761" height="46.165798" x="196.52789" y="-309.81271" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="206.1918" y="-290.24551" style="stroke:none">MAT221/223/240</text>
+        <text x="246.2269" y="-270.64389" style="stroke:none">(Alg1)</text>
+        <rect width="142.07761" height="46.165798" x="196.52789" y="-309.81271" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="1052.7181" y="86.268303" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="1054.98" y="107.5534" style="stroke:none">CSC385</text>
+        <rect width="65" height="30" x="1052.7181" y="86.268303" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="50" height="24" x="210.7774" y="119.716" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="216.8784" y="135.6442" font-size="10px" style="stroke:none">CSC209</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="50" height="24" x="210.7774" y="119.716" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="50" height="24" x="88.750702" y="74.957703" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="94.8517" y="90.886002" font-size="10px" style="stroke:none">CSC263</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="50" height="24" x="88.750702" y="74.957703" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="99.624802" height="24" x="898.11432" y="38.7318" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="905.12402" y="54.66" font-size="10px" style="stroke:none">CSC111/165/Calc1</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="99.624802" height="24" x="898.11432" y="38.7318" style="fill:none"/>
+        <text x="197.2263" y="-94.155899" font-size="8px" style="font-size:8px;stroke:none">and</text>
+        <ellipse cx="203.9001" cy="-97.2985" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+      </g>
+      <g style="fill:#b8ff70;stroke:#b8ff70">
+        <rect width="65" height="30" x="332.93991" y="281.43219" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="335.2016" y="302.71741" style="stroke:none">CSC466</text>
+        <rect width="65" height="30" x="332.93991" y="281.43219" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#e68080;stroke:#e68080">
+        <rect width="65" height="30" x="662.39838" y="128.2932" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="664.66022" y="149.57829" style="stroke:none">CSC465</text>
+        <rect width="65" height="30" x="662.39838" y="128.2932" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="918.91559" y="-10.0231" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="921.17731" y="11.262" style="stroke:none">CSC309</text>
+        <rect width="65" height="30" x="918.91559" y="-10.0231" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="88.750702" y="24.688101" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="91.012398" y="45.973301" style="stroke:none">CSC304</text>
+        <rect width="65" height="30" x="88.750702" y="24.688101" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="30" x="539.6839" y="106.0376" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="541.94562" y="127.3227" style="stroke:none">CSC473</text>
+        <rect width="65" height="30" x="539.6839" y="106.0376" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#c285ff;stroke:#c285ff">
+        <rect width="65" height="30" x="1052.7181" y="35.7318" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="1054.98" y="57.016899" style="stroke:none">CSC367</text>
+        <rect width="65" height="30" x="1052.7181" y="35.7318" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#91f27a;stroke:#91f27a">
+        <rect width="65" height="30" x="130.7507" y="119.3619" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="133.01241" y="140.64709" style="stroke:none">CSC303</text>
+        <rect width="65" height="30" x="130.7507" y="119.3619" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="27" height="24" x="168.7507" y="74.957703" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="172.2433" y="90.886002" font-size="10px" style="stroke:none">Alg1</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="27" height="24" x="168.7507" y="74.957703" style="fill:none"/>
+      </g>
+      <g style="fill:#66a366;stroke:#66a366">
+        <rect width="65" height="30" x="235.0668" y="288.60641" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="237.32851" y="309.8916" style="stroke:none">CSC419</text>
+        <rect width="65" height="30" x="235.0668" y="288.60641" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="607.13098" y="-315.42621" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="609.3927" y="-294.14111" style="stroke:none">CSC110</text>
+        <rect width="65" height="30" x="607.13098" y="-315.42621" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="607.13098" y="-264.65131" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="609.3927" y="-243.3661" style="stroke:none">CSC111</text>
+        <rect width="65" height="30" x="607.13098" y="-264.65131" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+        <text x="691.3418" y="-188.573" font-size="8px" style="font-size:8px;font-family:Dialog;stroke:none">or</text>
+        <ellipse cx="694.89838" cy="-191.71561" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+        <text x="557.63898" y="-209.26289" font-size="8px" style="font-size:8px;font-family:Dialog;stroke:none">or</text>
+        <ellipse cx="561.19568" cy="-212.4055" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+      </g>
+      <g style="fill:#b1c8d1;stroke:#b1c8d1">
+        <rect width="65" height="32" x="556.89099" y="-148.4075" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="559.15271" y="-126.1224" style="stroke:none">CSC240</text>
+        <rect width="65" height="32" x="556.89099" y="-148.4075" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+        <text x="538.33441" y="-84.950203" font-size="8px" style="font-size:8px;font-family:Dialog;stroke:none">or</text>
+        <ellipse cx="541.89099" cy="-88.092796" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+      </g>
+      <g style="fill:#5dd5b8;stroke:#5dd5b8">
+        <rect width="65" height="30" x="1032.8099" y="-316.79849" rx="4" ry="4" style="stroke:none" />
+      </g>
+      <g class="course" >
+        <text x="1036.4076" y="-295.5134" style="stroke:none">JCC250</text>
+        <rect width="65" height="30" x="1032.8099" y="-316.79849" rx="4" ry="4" style="fill:none"/>
+      </g>
+      <g style="fill:#8a67be;stroke:#8a67be">
+        <rect width="173.6458" height="46.165798" x="1.7825" y="-230.51289" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="27.2304" y="-210.9456" style="stroke:none">MAT235/237/257</text>
+        <text x="62.8242" y="-191.3441" style="stroke:none">(Calc2)</text>
+        <rect width="173.6458" height="46.165798" x="1.7825" y="-230.51289" rx="4" ry="4" style="fill:none;stroke-width:4"/>
+      </g>
+      <g style="fill:#66a366;stroke:#66a366">
+        <rect width="65" height="30" x="232.1936" y="228.6064" rx="4" ry="4" style="stroke:none"/>
+      </g>
+      <g class="course">
+        <text x="234.4554" y="249.8916" style="stroke:none">CSC417</text>
+        <rect width="65" height="30" x="232.1936" y="228.6064" rx="4" ry="4" style="fill:none"/>
+        <text x="310.04639" y="23.4405" font-size="8px" style="font-size:8px;font-family:Dialog;stroke:none">and</text>
+        <ellipse cx="316.72031" cy="20.298" rx="9.8800001" ry="7.3684001" style="fill:none"/>
+      </g>
+      <g style="fill:#888;stroke:#888">
+        <rect width="27" height="24" x="558.6839" y="68.3629" style="stroke:none"/>
+      </g>
+      <g class="required">
+        <text x="562.17657" y="84.2911" font-size="10px" style="stroke:none">Alg1</text>
+      </g>
+      <g style="stroke-linecap:butt;stroke-miterlimit:1.45">
+        <rect width="27" height="24" x="558.6839" y="68.3629" style="fill:none"/>
+        <path d="M 544.5049,-43.778 H 572.1839 V 16.6496" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 494.1926,-27.7613 493.6417,16.7036" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 767.2784,-286.8011 V -272.6346" style="fill:none;stroke-linecap:round;stroke-dasharray:0,4;stroke-dashoffset:2" marker-end="url(#arrowHead)"/>
+        <path d="M 782.0456,-132.4075 H 918.1809 V -66.7948" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 42.2566,111.1184 V 130.3879" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 409.3585,158.318 V 249.951 H 405.9482" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 409.3585,158.2625 V 298.5189 L 412.8189,298.3545" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 409.3585,158.318 V 249.951 H 412.8099" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 544.5165,-43.778 623.5587,-43.702 V 226.9071" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 616.7963,264.9576 599.937,285.4114" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 749.5658,-117.3784 V 164.2635 H 803.5046 V 234.5555" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 885.6857,-43.778 H 870.1649 V 283.582" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 749.5658,-117.3858 V 185.477" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 749.5658,223.4569 V 283.6017" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 885.7066,-43.778 H 829.3862 V -30.5277" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 544.4854,-43.778 H 795.0308 V -30.534" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 817.613,7.4848 V 15.0273" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 749.5658,-117.4281 V 96.1049 H 735.3839" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 544.5146,-43.778 H 694.8984 V -30.486" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1030.3032,-117.3907 V -88.0928 H 713.0879 V -30.4992" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 694.8984,7.4848 V 15.0273" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 977.8032,151.2732 V 212.5216 H 1044.7262" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 493.3569,54.7223 V 340.813 H 1085.2183 V 329.6052" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 749.5658,-117.4281 V 96.1049 H 882.1666" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 922.6649,112.1264 V 283.6501" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 977.8032,151.2964 V 306.6064 H 963.1609" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 493.3569,54.656 V 340.9576 H 922.6649 V 329.6015" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 38.6534,208.2956 40.2688,226.9702" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1136.3889,-36.4096 1137.6331,152.5216 H 1125.6959" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 950.6733,-43.778 H 1012.4232" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1030.3032,-117.3907 V -59.1465" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1030.3032,-36.4096 V 136.2682 H 1018.2825" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1030.3032,-36.4096 V 152.5216 H 1044.6929" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 539.6973,164.092 H 537.4691" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 493.3569,54.6615 V 164.092 H 501.709" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 519.5891,171.4605 V 208.4732 H 531.668" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 519.5891,171.4605 V 306.6064 H 543.525" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 722.2976,269.5398 732.3198,284.8862" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 822.5046,148.2682 V 234.5256" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 836.0046,136.2682 H 849.7101 V 283.5997" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 809.0046,136.2682 H 767.2851 V 185.4803" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1.7593,-288.618 H -16.0821 V -96.6694 L 3.6781,-97.3469" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 121.2503,-76.779 120.9492,-43.778 H 436.2918" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 717.0565,208.4732 H 685.4858 V 283.5735" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1030.3032,-36.4096 V 101.2683 H 1044.6929" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 220.6013,143.73 V 342.6064 H 453.2771 V 319.4479" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 220.6013,143.7502 V 342.6064 H 94.674 V 153.3633 H 82.736" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 220.6031,143.7337 220.604,180.8633 H 227.0359" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 113.7507,98.9577 V 302.9926 L 114.4851,303.0035" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 941.2456,62.7318 934.9214,74.0908" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 250.1768,-263.6152 208.0521,-112.2205" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 174.0183,-264.5963 201.1889,-112.4778" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 203.9001,-89.9301 V -26.1646 H 392.6891 V 120.2944" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 203.9001,-89.9301 V 253.2956 H 195.5083" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 203.9001,-89.9301 V 303.6064 H 195.4932" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 409.3585,158.2856 V 296.4323 H 405.9482" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 928.4207,-28.7564 936.6921,-16.6223" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 121.2506,-76.8022 V 16.7002" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 493.3569,54.7108 V 121.0376 H 531.6411" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 1030.3032,-36.4096 V 50.7318 H 1044.6929" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 126.2812,98.9577 141.8402,113.858" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 177.4409,98.9577 172.2273,111.9655" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 221.0023,143.7407 V 303.6064 H 227.0663" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 639.631,-285.402 V -272.6289" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 653.9606,-234.6299 683.649,-203.5081" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 748.512,-234.6299 707.8792,-202.1059" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 704.7784,-191.7156 H 749.5658 V -155.3793" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 685.0184,-191.7156 H 409.3585 V 120.2849" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 704.7784,-191.7156 H 1047.2399 V -155.4475" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 685.0184,-191.7156 H 468.6295 V -156.4377" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 544.3522,-259.044 555.9087,-227.0447" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 609.1837,-235.1931 576.7563,-219.7946" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 561.1957,-205.037 V -172.0769 H 513.1216 V -156.4279" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 561.1957,-205.037 V -172.0769 H 1020.1412 V -155.4427" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 494.391,-116.386 527.2979,-96.7851" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 589.391,-116.386 556.4841,-96.7851" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 532.011,-88.0928 H 494.391 V -67.7469" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 551.771,-88.0928 H 639.631 V 143.2932 H 654.3802" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 551.771,-88.0928 H 639.631 V 96.1049 H 654.3802" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 551.771,-88.0928 H 639.631 V 164.092 H 612.6889" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 88.6054,-263.6136 V -238.5015" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 220.6031,143.7546 V 243.6064 H 224.1941" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 316.7203,-263.638 V 4.9295" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 175.4283,-184.34709 186.93,-131.57199 V 20.201714 H 298.8406" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 316.7203,27.6664 V 180.8633 H 308.0638" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 316.7203,27.6664 V 243.6064 H 305.1849" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 316.7203,27.6664 V 306.6064 L 308.0489,306.0772" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 316.7203,27.6664 V 249.951 H 324.9443" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 316.7203,27.6664 V 296.4323 H 324.9443" style="fill:none" marker-end="url(#arrowHead)"/>
+        <path d="M 572.1839,92.3629 V 98.0562" style="fill:none" marker-end="url(#arrowHead)"/>
+      </g>
+    </g>
+  </g>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-761.23456,-299.35996)"><tspan x="1004.0916" y="454.81943">Math and</tspan><tspan x="1004.0916" y="475.98605">Statistics</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-862.10997,229.97895)"><tspan x="1004.0916" y="454.81943">Computer Graphics</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-992.729,-156.65256)"><tspan x="1004.0916" y="454.81943">Humans and</tspan><tspan x="1004.0916" y="475.98605">Computing</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-568.04677,-226.02257)"><tspan x="1004.0916" y="454.81943">Theory</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-169.00432,-390.52244)"><tspan x="1004.0916" y="454.81943">Introductory Courses</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-232.61447,-214.02865)"><tspan x="1004.0916" y="454.81943">Software</tspan><tspan x="1004.0916" y="475.98605">Engineering</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-673.19956,229.88802)"><tspan x="1004.0916" y="454.81943">Scientific Computing</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(57.493751,-235.9797)"><tspan x="1004.0916" y="454.81943">Computer</tspan><tspan x="1004.0916" y="475.98605">Systems</tspan></text>
+  <text x="1004.0916" y="454.81943" style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none" transform="translate(5,5.7142857) translate(-374.34509,229.88802)"><tspan x="1004.0916" y="454.81943">Artificial Intelligence</tspan></text>
+</svg>

@@ -148,10 +148,9 @@ const App = () => {
       let touch1 = e.touches[0];
       let touch2 = e.touches[1];
       lastRadius = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY) * scaled;
+      lastX = ((touch1.clientX + touch2.clientX) / 2) * scaled - (window.innerWidth * scaled - originalWidth) / 2;
+      lastY = ((touch1.clientY + touch2.clientY) / 2) * scaled - (window.innerHeight * scaled - originalHeight) / 2;
     } else if (e.touches.length === 1) {
-      e.preventDefault();
-      e.stopPropagation();
-
       let touch = e.touches[0];
       lastX = touch.clientX;
       lastY = touch.clientY;
@@ -165,11 +164,13 @@ const App = () => {
       let oldZoom = zoom;
       zoom = Math.max(Math.min(zoom * (radius / lastRadius), 4), 0.5);
       lastRadius = radius;
-      let mouesX = ((touch1.clientX + touch2.clientX) / 2) * scaled - (window.innerWidth * scaled - originalWidth) / 2;
-      let mouesY =
+      let mouseX = ((touch1.clientX + touch2.clientX) / 2) * scaled - (window.innerWidth * scaled - originalWidth) / 2;
+      let mouseY =
         ((touch1.clientY + touch2.clientY) / 2) * scaled - (window.innerHeight * scaled - originalHeight) / 2;
-      viewX = mouesX - (mouesX - viewX) * (zoom / oldZoom);
-      viewY = mouesY - (mouesY - viewY) * (zoom / oldZoom);
+      viewX = mouseX - (mouseX - viewX) * (zoom / oldZoom) + (mouseX - lastX);
+      viewY = mouseY - (mouseY - viewY) * (zoom / oldZoom) + (mouseY - lastY);
+      lastX = mouseX;
+      lastY = mouseY;
       viewX = Math.min(Math.max(viewX, -originalWidth * zoom), originalWidth);
       viewY = Math.min(Math.max(viewY, -originalHeight * zoom), originalHeight);
       setTransform(`translate(${viewX},${viewY}) scale(${zoom})`);
@@ -191,11 +192,17 @@ const App = () => {
       lastY = touch.clientY;
     }
   };
-  window.addEventListener("touchstart", onTouchStart, { passive: false });
-  window.addEventListener("touchmove", onTouchMove, { passive: false });
-  window.addEventListener("touchend", onTouchEnd, { passive: false });
 
   onMount(() => {
+    courses.addEventListener("touchstart", onTouchStart, { passive: false });
+    courses.addEventListener("touchmove", onTouchMove, { passive: false });
+    courses.addEventListener("touchend", onTouchEnd, { passive: false });
+    onCleanup(() => {
+      courses.removeEventListener("touchstart", onTouchStart);
+      courses.removeEventListener("touchmove", onTouchMove);
+      courses.removeEventListener("touchend", onTouchEnd);
+    });
+
     dialog.addEventListener("click", (e) => {
       if (e.target !== dialog.firstElementChild) {
         dialog.close();
@@ -224,7 +231,7 @@ const App = () => {
       <dialog ref={dialog}>
         <div>
           <h1>Course: {title()}</h1>
-          <p>{description()}</p>
+          <div innerHTML={description()}/>
         </div>
       </dialog>
     </>

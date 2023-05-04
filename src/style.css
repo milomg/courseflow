@@ -7,11 +7,9 @@ body {
 }
 
 #root {
+  display: flex;
   width: 100%;
   height: 100%;
-  min-height: 0;
-  min-width: 0;
-  contain: paint;
 }
 
 svg {
@@ -19,17 +17,4 @@ svg {
   transform-origin: top left;
   width: 100%;
   height: 100%;
-}
-
-.modal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  contain: paint;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
 }

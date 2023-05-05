@@ -106,7 +106,10 @@ const App = () => {
 
   const originalWidth = 1196;
   const originalHeight = 708;
-  const scaled = Math.max(originalHeight / window.innerHeight, originalWidth / window.innerWidth);
+  const width = () =>
+    sidebarOpen() ? (window.innerWidth >= 1000 ? window.innerWidth - 500 : window.innerWidth - 300) : window.innerWidth;
+  const height = () => window.innerHeight;
+  const scaled = () => Math.max(originalHeight / height(), originalWidth / width());
 
   let viewX = 0;
   let viewY = 0;
@@ -118,8 +121,8 @@ const App = () => {
     if (e.ctrlKey) {
       let oldZoom = zoom;
       zoom = Math.max(Math.min(zoom * Math.pow(2, e.deltaY * -0.01), 2), 0.5);
-      let mouesX = e.offsetX * scaled - (window.innerWidth * scaled - originalWidth) / 2;
-      let mouesY = e.offsetY * scaled - (window.innerHeight * scaled - originalHeight) / 2;
+      let mouesX = e.offsetX * scaled() - (width() * scaled() - originalWidth) / 2;
+      let mouesY = e.offsetY * scaled() - (height() * scaled() - originalHeight) / 2;
       viewX = mouesX - (mouesX - viewX) * (zoom / oldZoom);
       viewY = mouesY - (mouesY - viewY) * (zoom / oldZoom);
     } else if (e.shiftKey) {
@@ -148,9 +151,9 @@ const App = () => {
       e.stopPropagation();
       let touch1 = e.touches[0];
       let touch2 = e.touches[1];
-      lastRadius = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY) * scaled;
-      lastX = ((touch1.clientX + touch2.clientX) / 2) * scaled - (window.innerWidth * scaled - originalWidth) / 2;
-      lastY = ((touch1.clientY + touch2.clientY) / 2) * scaled - (window.innerHeight * scaled - originalHeight) / 2;
+      lastRadius = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY) * scaled();
+      lastX = ((touch1.clientX + touch2.clientX) / 2) * scaled() - (width() * scaled() - originalWidth) / 2;
+      lastY = ((touch1.clientY + touch2.clientY) / 2) * scaled() - (height() * scaled() - originalHeight) / 2;
     } else if (e.touches.length === 1) {
       let touch = e.touches[0];
       lastX = touch.clientX;
@@ -163,13 +166,12 @@ const App = () => {
     if (e.touches.length >= 2) {
       let touch1 = e.touches[0];
       let touch2 = e.touches[1];
-      let radius = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY) * scaled;
+      let radius = Math.hypot(touch1.clientX - touch2.clientX, touch1.clientY - touch2.clientY) * scaled();
       let oldZoom = zoom;
       zoom = Math.max(Math.min(zoom * (radius / lastRadius), 4), 0.5);
       lastRadius = radius;
-      let mouseX = ((touch1.clientX + touch2.clientX) / 2) * scaled - (window.innerWidth * scaled - originalWidth) / 2;
-      let mouseY =
-        ((touch1.clientY + touch2.clientY) / 2) * scaled - (window.innerHeight * scaled - originalHeight) / 2;
+      let mouseX = ((touch1.clientX + touch2.clientX) / 2) * scaled() - (width() * scaled() - originalWidth) / 2;
+      let mouseY = ((touch1.clientY + touch2.clientY) / 2) * scaled() - (height() * scaled() - originalHeight) / 2;
       viewX = mouseX - (mouseX - viewX) * (zoom / oldZoom) + (mouseX - lastX);
       viewY = mouseY - (mouseY - viewY) * (zoom / oldZoom) + (mouseY - lastY);
       lastX = mouseX;
@@ -179,8 +181,8 @@ const App = () => {
       setTransform(`translate(${viewX},${viewY}) scale(${zoom})`);
     } else if (e.touches.length === 1) {
       let touch = e.touches[0];
-      viewX += (touch.clientX - lastX) * scaled;
-      viewY += (touch.clientY - lastY) * scaled;
+      viewX += (touch.clientX - lastX) * scaled();
+      viewY += (touch.clientY - lastY) * scaled();
       lastX = touch.clientX;
       lastY = touch.clientY;
       viewX = Math.min(Math.max(viewX, -originalWidth * zoom), originalWidth);

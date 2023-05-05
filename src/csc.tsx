@@ -4,7 +4,7 @@ export const Courses: Component<{
   transform: string;
   ref: SVGSVGElement;
 }> = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1196 708" ref={props.ref}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1196 708" ref={props.ref} class="courses">
     <style>{`
     text {
       font-family: sans-serif;

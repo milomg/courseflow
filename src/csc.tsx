@@ -11,10 +11,14 @@ export const Courses: Component<{
     }
     .course {
       font-size: 16px;
+      cursor: pointer;
     }
     .required {
       font-size: 10px;
       fill: #fff;
+    }
+    .major {
+      stroke-width: 4;
     }
     .required rect {
       fill: #888;
@@ -104,62 +108,62 @@ export const Courses: Component<{
             CSC448
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="32" x="528" y="32" rx="4" ry="4" fill="#5dd5b8" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="32" x="528" y="32" rx="4" ry="4" fill="#5dd5b8" />
           <text x="530" y="54" stroke="none">
             CSC165
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="32" x="484" y="174" rx="4" ry="4" fill="#b1c8d1" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="32" x="484" y="174" rx="4" ry="4" fill="#b1c8d1" />
           <text x="486" y="197" stroke="none">
             CSC236
           </text>
         </g>
-        <g class="course">
-          <rect width="100.2" height="32" x="466" y="263" rx="4" ry="4" fill="#b1c8d1" stroke-width="4" />
+        <g class="course major">
+          <rect width="100.2" height="32" x="466" y="263" rx="4" ry="4" fill="#b1c8d1" />
           <text x="471" y="285" stroke="none">
             CSC263/265
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="483" y="347" rx="4" ry="4" fill="#b1c8d1" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="483" y="347" rx="4" ry="4" fill="#b1c8d1" />
           <text x="485" y="369" stroke="none">
             CSC373
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="757" y="6" rx="4" ry="4" fill="#5dd5b8" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="757" y="6" rx="4" ry="4" fill="#5dd5b8" />
           <text x="759" y="27" stroke="none">
             CSC108
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="757" y="58" rx="4" ry="4" fill="#5dd5b8" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="757" y="58" rx="4" ry="4" fill="#5dd5b8"  />
           <text x="759" y="79" stroke="none">
             CSC148
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="739" y="175" rx="4" ry="4" fill="#e68080" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="739" y="175" rx="4" ry="4" fill="#e68080" />
           <text x="741" y="197" stroke="none">
             CSC207
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="908" y="264" rx="4" ry="4" fill="#c285ff" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="908" y="264" rx="4" ry="4" fill="#c285ff" />
           <text x="910" y="285" stroke="none">
             CSC209
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="1020" y="175" rx="4" ry="4" fill="#c285ff" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="1020" y="175" rx="4" ry="4" fill="#c285ff" />
           <text x="1022" y="197" stroke="none">
             CSC258
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="967" y="444" rx="4" ry="4" fill="#c285ff" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="967" y="444" rx="4" ry="4" fill="#c285ff" />
           <text x="970" y="465" stroke="none">
             CSC369
           </text>
@@ -365,8 +369,8 @@ export const Courses: Component<{
             Sta1
           </text>
         </g>
-        <g class="course">
-          <rect width="173.6" height="46.2" x="24" y="13" rx="4" ry="4" fill="#8a67be" stroke-width="4" />
+        <g class="course major">
+          <rect width="173.6" height="46.2" x="24" y="13" rx="4" ry="4" fill="#8a67be" />
           <text x="28" y="33" stroke="none">
             MAT(135,136)/137/157
           </text>
@@ -374,8 +378,8 @@ export const Courses: Component<{
             (Calc1)
           </text>
         </g>
-        <g class="course">
-          <rect width="173.6" height="46.2" x="33" y="200" rx="4" ry="4" fill="#8a67be" stroke-width="4" />
+        <g class="course major">
+          <rect width="173.6" height="46.2" x="33" y="200" rx="4" ry="4" fill="#8a67be" />
           <text x="39" y="219" stroke="none">
             STA237/247/255/257
           </text>
@@ -407,8 +411,8 @@ export const Courses: Component<{
             CSC120
           </text>
         </g>
-        <g class="course">
-          <rect width="142.1" height="46.2" x="219" y="13" rx="4" ry="4" fill="#8a67be" stroke-width="4" />
+        <g class="course major">
+          <rect width="142.1" height="46.2" x="219" y="13" rx="4" ry="4" fill="#8a67be" />
           <text x="228" y="33" stroke="none">
             MAT221/223/240
           </text>
@@ -500,14 +504,14 @@ export const Courses: Component<{
             CSC419
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="629" y="7" rx="4" ry="4" fill="#5dd5b8" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="629" y="7" rx="4" ry="4" fill="#5dd5b8" />
           <text x="631" y="29" stroke="none">
             CSC110
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="30" x="629" y="58" rx="4" ry="4" fill="#5dd5b8" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="30" x="629" y="58" rx="4" ry="4" fill="#5dd5b8" />
           <text x="631" y="79" stroke="none">
             CSC111
           </text>
@@ -524,8 +528,8 @@ export const Courses: Component<{
             or
           </text>
         </g>
-        <g class="course">
-          <rect width="65" height="32" x="579" y="174" rx="4" ry="4" fill="#b1c8d1" stroke-width="4" />
+        <g class="course major">
+          <rect width="65" height="32" x="579" y="174" rx="4" ry="4" fill="#b1c8d1" />
           <text x="581" y="197" stroke="none">
             CSC240
           </text>
@@ -542,8 +546,8 @@ export const Courses: Component<{
             JCC250
           </text>
         </g>
-        <g class="course">
-          <rect width="173.6" height="46.2" x="24" y="92" rx="4" ry="4" fill="#8a67be" stroke-width="4" />
+        <g class="course major">
+          <rect width="173.6" height="46.2" x="24" y="92" rx="4" ry="4" fill="#8a67be" />
           <text x="49" y="112" stroke="none">
             MAT235/237/257
           </text>

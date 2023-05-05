@@ -91,10 +91,11 @@ type CourseFormat = Record<
 
 const App = () => {
   let courses!: SVGSVGElement;
-  let dialog!: HTMLDialogElement;
+  let dialog!: HTMLDivElement;
 
-  const [title, setTitle] = createSignal("");
-  const [description, setDescription] = createSignal("");
+  const [title, setTitle] = createSignal("Select course");
+  const [description, setDescription] = createSignal("<p>Pick a course from the diagram on the left</p>");
+  const [sidebarOpen, setSidebarOpen] = createSignal(false);
 
   const [courseData] = createResource<CourseFormat>(async () => {
     const raw = await fetch("/courses.json");
@@ -157,6 +158,8 @@ const App = () => {
     }
   };
   const onTouchMove = (e: TouchEvent) => {
+    e.preventDefault();
+
     if (e.touches.length >= 2) {
       let touch1 = e.touches[0];
       let touch2 = e.touches[1];
@@ -203,12 +206,6 @@ const App = () => {
       courses.removeEventListener("touchend", onTouchEnd);
     });
 
-    dialog.addEventListener("click", (e) => {
-      if (e.target !== dialog.firstElementChild) {
-        dialog.close();
-      }
-    });
-
     let list = courses.querySelectorAll(".course");
 
     list.forEach((course) => {
@@ -220,7 +217,7 @@ const App = () => {
         const course = data[courseName];
         setTitle(course.courseTitle);
         setDescription(course.courseDescription);
-        dialog.showModal();
+        setSidebarOpen(true);
       });
     });
   });
@@ -228,12 +225,23 @@ const App = () => {
   return (
     <>
       <Courses ref={courses} transform={transform()} />
-      <dialog ref={dialog}>
-        <div>
-          <h1>Course: {title()}</h1>
-          <div innerHTML={description()}/>
-        </div>
-      </dialog>
+      <div class="virtual" classList={{ open: sidebarOpen() }}></div>
+      <div class="sidebar" classList={{ open: sidebarOpen() }} ref={dialog}>
+        <button class="close" onClick={() => setSidebarOpen(!sidebarOpen())}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width={1.5}
+            stroke="currentColor"
+            width="1em"
+            height="1em"
+          >
+            <path stroke-linecap="round" fill="none" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+        <h1>{title()}</h1>
+        <div innerHTML={description()} />
+      </div>
     </>
   );
 };

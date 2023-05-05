@@ -1,4 +1,4 @@
-import { createResource, createSignal, onCleanup, onMount } from "solid-js";
+import { createMemo, createResource, createSignal, onCleanup, onMount } from "solid-js";
 import { render } from "solid-js/web";
 import { Courses } from "./csc";
 import "./style.css";
@@ -89,18 +89,31 @@ type CourseFormat = Record<
   }
 >;
 
+type CourseData = {
+  title: string;
+  body: string;
+  hours: string;
+  exclusion: string;
+  distributionRequirements: string;
+  breadthRequirements: string;
+  deliveryMode: string;
+}[];
+
 const App = () => {
   let courses!: SVGSVGElement;
   let dialog!: HTMLDivElement;
 
-  const [title, setTitle] = createSignal("Select course");
-  const [description, setDescription] = createSignal("<p>Pick a course from the diagram on the left</p>");
   const [sidebarOpen, setSidebarOpen] = createSignal(false);
 
-  const [courseData] = createResource<CourseFormat>(async () => {
+  const [courseData] = createResource<CourseData>(async () => {
     const raw = await fetch("/courses.json");
     return raw.json();
   });
+  
+  const [currentCourse, setCurrentCourse] = createSignal<string>("");
+  const currentCourseData = createMemo(() => courseData()?.find((c) => c.title.startsWith(currentCourse())));
+  const title = () => currentCourseData()?.title || "Select course";
+  const description = () => currentCourseData()?.body || "<p>Pick a course from the diagram on the left</p>";
 
   const [transform, setTransform] = createSignal("");
 
@@ -139,8 +152,6 @@ const App = () => {
 
     return false;
   };
-  window.addEventListener("wheel", wheelEvent, { passive: false });
-  onCleanup(() => window.removeEventListener("wheel", wheelEvent));
 
   let lastRadius = 0;
   let lastX = 0;
@@ -199,10 +210,12 @@ const App = () => {
   };
 
   onMount(() => {
+    courses.addEventListener("wheel", wheelEvent, { passive: false });
     courses.addEventListener("touchstart", onTouchStart, { passive: false });
     courses.addEventListener("touchmove", onTouchMove, { passive: false });
     courses.addEventListener("touchend", onTouchEnd, { passive: false });
     onCleanup(() => {
+      courses.removeEventListener("wheel", wheelEvent);
       courses.removeEventListener("touchstart", onTouchStart);
       courses.removeEventListener("touchmove", onTouchMove);
       courses.removeEventListener("touchend", onTouchEnd);
@@ -211,14 +224,9 @@ const App = () => {
     let list = courses.querySelectorAll(".course");
 
     list.forEach((course) => {
-      course.addEventListener("click", (e) => {
-        const courseString = (e.target as SVGGElement).textContent.replace(/\//g, "").slice(0, 6);
-        const data = courseData();
-        const keys = Object.keys(data);
-        const courseName = keys.find((key) => key.startsWith(courseString))!;
-        const course = data[courseName];
-        setTitle(course.courseTitle);
-        setDescription(course.courseDescription);
+      course.addEventListener("click", () => {
+        const courseString = course.textContent.replace(/\//g, "").slice(0, 6);
+        setCurrentCourse(courseString);
         setSidebarOpen(true);
       });
     });
@@ -241,8 +249,10 @@ const App = () => {
             <path stroke-linecap="round" fill="none" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
           </svg>
         </button>
-        <h1>{title()}</h1>
-        <div innerHTML={description()} />
+        <div class="content">
+          <h1>{title()}</h1>
+          <div innerHTML={description()} />
+        </div>
       </div>
     </>
   );

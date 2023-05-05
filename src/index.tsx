@@ -1,4 +1,4 @@
-import { createMemo, createResource, createSignal, onCleanup, onMount } from "solid-js";
+import { Show, createMemo, createResource, createSignal, onCleanup, onMount } from "solid-js";
 import { render } from "solid-js/web";
 import { Courses } from "./csc";
 import "./style.css";
@@ -9,7 +9,7 @@ type CourseFormat = Record<
     courseId: string;
     org: string;
     orgName: string;
-    courseTitle;
+    courseTitle: string;
     code: string;
     courseDescription: string;
     prerequisities: string;
@@ -93,6 +93,7 @@ type CourseData = {
   title: string;
   body: string;
   hours: string;
+  prerequisite: string;
   exclusion: string;
   distributionRequirements: string;
   breadthRequirements: string;
@@ -109,7 +110,7 @@ const App = () => {
     const raw = await fetch("/courses.json");
     return raw.json();
   });
-  
+
   const [currentCourse, setCurrentCourse] = createSignal<string>("");
   const currentCourseData = createMemo(() => courseData()?.find((c) => c.title.startsWith(currentCourse())));
   const title = () => currentCourseData()?.title || "Select course";
@@ -225,7 +226,7 @@ const App = () => {
 
     list.forEach((course) => {
       course.addEventListener("click", () => {
-        const courseString = course.textContent.replace(/\//g, "").slice(0, 6);
+        const courseString = course.textContent!.replace(/[/()]/g, "").slice(0, 6);
         setCurrentCourse(courseString);
         setSidebarOpen(true);
       });
@@ -252,6 +253,24 @@ const App = () => {
         <div class="content">
           <h1>{title()}</h1>
           <div innerHTML={description()} />
+          <Show when={currentCourseData()}>
+            {(data) => (
+              <>
+                <div>
+                  <strong>Hours: </strong>
+                  <span innerHTML={data().hours} />
+                </div>
+                <div>
+                  <strong>Exclusion: </strong>
+                  <span innerHTML={data().exclusion} />
+                </div>
+                <div>
+                  <strong>Prerequisite: </strong>
+                  <span innerHTML={data().prerequisite} />
+                </div>
+              </>
+            )}
+          </Show>
         </div>
       </div>
     </>
